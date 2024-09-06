@@ -1,3 +1,5 @@
+
+
 let weather = {
     apikey: "aa5af640f65a964a73dcea81b9405e02",
     fetchWeather : function (city) {
@@ -39,4 +41,4 @@ document.querySelector(".searchbar").addEventListener("keyup", function(event){
     }
 });
 
-weather.fetchWeather("durgapur");
+weather.fetchWeather("Delhi");
